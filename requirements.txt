@@ -1,0 +1,10 @@
+langchain==0.2.3
+langchain_community==0.2.4
+langchain_core==0.2.5
+langchain_huggingface==0.0.3
+langchain_openai==0.1.8
+langchain_text_splitters==0.2.1
+python-dotenv==1.0.1
+streamlit==1.35.0
+pypdf==4.2.0
+chromadb==0.5.0
