@@ -21,7 +21,7 @@ By supporting four different models, Know Your PDF ensures versatility and robus
 
 ## Installation
 1. Clone this repository
-2. Go to .streamlit/secrets.toml and add your API KEYS<br>
+2. create a folder **.streamlit** and create a file **secrets.toml** and add your API KEYS<br>
 ``` python
 HUGGINGFACEHUB_API_TOKEN="<KEY>"
 OPEN_AI_KEY="<KEY>"
