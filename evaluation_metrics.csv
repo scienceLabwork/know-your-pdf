@@ -1,5 +1,5 @@
 Query,Response,Similarity_Score(-1 TO 1)
-What information does the booklet provide?,"The booklet provides the following information:
+What information does the booklet provide?,"The booklet provides information on the following topics:
 
 - **FAQs** (Page 3)
 - **Glossary** (Page 4)
@@ -23,4 +23,4 @@ What information does the booklet provide?,"The booklet provides the following i
 - **If you’re in an accident** (Page 43)
 - **How to get in touch** (Back cover)
 
-Additionally, it explains the components of the policy, such as the booklet itself, car insurance details, and certificates of motor insurance. It also mentions additional documents if the policy includes Green Flag breakdown cover or DriveSure. Specific terms in bold type are defined in the Glossary or at the start of each section.",0.96
+Additionally, the booklet explains the components of the policy, including the booklet itself, your car insurance details, and your certificate(s) of motor insurance. It also covers specific terms for policies that include Green Flag breakdown cover and DriveSure. Words with specific meanings are highlighted in bold and defined in the glossary or at the start of each section.",0.9683

@@ -18,7 +18,7 @@ def similarity_score(sentence1,sentence2):
     similarity_score = round(similarity_score, 4)
     return similarity_score
 
-df = pd.read_csv('evaluation_metrics.csv')
+df = pd.read_csv('dataset.csv')
 questions = df['Query'].tolist()
 answers = df['Response'].tolist()
 df_evaluation = {
@@ -26,6 +26,7 @@ df_evaluation = {
     'Response': [],
     'Similarity_Score(-1 TO 1)': []
 }
+
 for i in range(len(questions)):
     query = questions[i]
     original_response = answers[i]
