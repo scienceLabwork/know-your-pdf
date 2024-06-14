@@ -20,11 +20,11 @@ By supporting four different models, Know Your PDF ensures versatility and robus
     * Llama3-8B: Offers superior performance in processing large and complex texts.
 
 ## Evaluation
-The performance of the models was evaluated on the following metrics:
-    1. Similarity Score: The cosine similarity between the generated Original Response and LLM Response.
-    ``` python
-        SCORE: 0.83
+The performance of the models was evaluated on the following metrics:<br>
+    1. Similarity Score: The cosine similarity between the generated Original Response and LLM Response.<br>
     ```
+        SCORE: 0.83
+    ```<br>
     File : [Evaluation](./evaluation_metrics_llm_org_similarity.csv)
 
 ## Installation
