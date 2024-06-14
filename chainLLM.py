@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 from langchain_community.document_loaders import PyPDFLoader,TextLoader
 from langchain_community.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import Chroma
@@ -60,8 +64,9 @@ def prompt_template():
 
     Note: You are context chatbot. Answer the users QUESTION using the CONTEXT above.
     Keep your answer ground in the facts of the CONTEXT.
-    If the CONTEXT doesn't contain the facts to answer the QUESTION return "No revelant information found in the context."
-    The context sometimes refers to pdf. If use ask for summary of the pdf, return the summary of the pdf. If user tries for small talk, try to reply to it.
+    If the CONTEXT doesn't contain the facts to answer the QUESTION return something in small talk.
+    The context sometimes refers to pdf. If use ask for summary of the pdf, return the summary of the pdf. 
+    If user tries for small talk, try to reply to it.
     You have to output answer in properly formated markdown format. There should be no error in output format. If you give correct answer you will get 100 points.
     The answer should not contain any irrevelant information. Don't include ```markdown``` key word to identify the code is starting directly start wrting markdown.
 
