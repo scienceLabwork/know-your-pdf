@@ -15,7 +15,7 @@ RAG combines the strength of retrieval mechanisms and generative models to provi
 By supporting four different models, Know Your PDF ensures versatility and robustness in handling various types of queries:
 
     * ChatGPT-4o: Excels in generating conversational and contextually rich responses.
-    *Gemma-8B: Specialized in nuanced understanding and detailed explanations.
+    * Gemma-8B: Specialized in nuanced understanding and detailed explanations.
     * Mistral-8B: Known for its efficiency and accuracy in information retrieval.
     * Llama3-8B: Offers superior performance in processing large and complex texts.
 
