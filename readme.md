@@ -23,6 +23,7 @@ By supporting four different models, Know Your PDF ensures versatility and robus
 The performance of the models was evaluated on the following metrics:<br>
     1. Similarity Score: The cosine similarity between the generated Original Response and LLM Response.<br>
     ```
+        MODEL: ChatGPT-4o
         SCORE: 0.83
     ```<br>
     File : [Evaluation](./evaluation_metrics_llm_org_similarity.csv)
